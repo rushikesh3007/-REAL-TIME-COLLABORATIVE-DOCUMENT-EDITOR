@@ -41,6 +41,9 @@ This project is a full-stack web application designed to deliver a dynamic, resp
 - RESTful API / GraphQL for data exchange
 - WebSockets for real-time features (if applicable)
   real-time-collaborative-editor/
+
+
+real-time-collaborative-editor/
 │
 ├── backend/                    # Backend server
 │   ├── controllers/             # Business logic
@@ -66,6 +69,7 @@ This project is a full-stack web application designed to deliver a dynamic, resp
 │   └── package.json             # Frontend dependencies (React)
 │
 └── README.md                   # Project documentation
+
 
 ### Database:
 - MongoDB (NoSQL) with Mongoose ORM or PostgreSQL (SQL) with Sequelize/SQLAlchemy ORM
