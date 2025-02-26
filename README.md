@@ -119,6 +119,9 @@ To deploy the project:
 3. Deploy the backend on **AWS EC2**, **Heroku**, or **Railway**.
 4. Set up **CI/CD pipelines** for automated deployment.
 
+**output:**
+![Image](https://github.com/user-attachments/assets/15807939-650c-48e9-9cb5-9eb636226288)
+
 
 
 
