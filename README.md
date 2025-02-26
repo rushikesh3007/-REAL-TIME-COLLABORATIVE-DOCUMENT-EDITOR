@@ -27,7 +27,7 @@ This project is a full-stack web application designed to deliver a dynamic, resp
 - **State Management**: Utilizes Redux or Context API in React for efficient application state handling.
 - **Deployment Ready**: Configured for deployment on cloud platforms like AWS, Vercel, or Heroku.
 
-## Tech Stack
+
 
 ### Frontend:
 - React.js (with Hooks, Context API, Redux for state management)
@@ -40,6 +40,32 @@ This project is a full-stack web application designed to deliver a dynamic, resp
 - JWT for authentication
 - RESTful API / GraphQL for data exchange
 - WebSockets for real-time features (if applicable)
+  real-time-collaborative-editor/
+│
+├── backend/                    # Backend server
+│   ├── controllers/             # Business logic
+│   │   └── documentController.js
+│   ├── models/                  # Database models (MongoDB/SQL)
+│   │   └── documentModel.js
+│   ├── routes/                  # API routes
+│   │   └── documentRoutes.js
+│   ├── server.js                # Main backend file (Node.js/Express)
+│   ├── .env                     # Environment variables (for DB, API keys)
+│   └── package.json             # Backend dependencies (Node.js)
+│
+├── frontend/                   # Frontend application (React.js)
+│   ├── public/                  # Static assets (HTML, images)
+│   ├── src/                     # Source code
+│   │   ├── components/          # React components
+│   │   │   └── DocumentEditor.js
+│   │   ├── context/             # React context for managing state
+│   │   │   └── DocumentContext.js
+│   │   ├── App.js               # Main React component
+│   │   └── index.js             # Entry point for React
+│   ├── .env                     # Environment variables (for WebSocket URLs, API)
+│   └── package.json             # Frontend dependencies (React)
+│
+└── README.md                   # Project documentation
 
 ### Database:
 - MongoDB (NoSQL) with Mongoose ORM or PostgreSQL (SQL) with Sequelize/SQLAlchemy ORM
