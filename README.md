@@ -42,33 +42,8 @@ This project is a full-stack web application designed to deliver a dynamic, resp
 - WebSockets for real-time features (if applicable)
   real-time-collaborative-editor/
 
-
-real-time-collaborative-editor/
-│
-├── backend/                    # Backend server
-│   ├── controllers/             # Business logic
-│   │   └── documentController.js
-│   ├── models/                  # Database models (MongoDB/SQL)
-│   │   └── documentModel.js
-│   ├── routes/                  # API routes
-│   │   └── documentRoutes.js
-│   ├── server.js                # Main backend file (Node.js/Express)
-│   ├── .env                     # Environment variables (for DB, API keys)
-│   └── package.json             # Backend dependencies (Node.js)
-│
-├── frontend/                   # Frontend application (React.js)
-│   ├── public/                  # Static assets (HTML, images)
-│   ├── src/                     # Source code
-│   │   ├── components/          # React components
-│   │   │   └── DocumentEditor.js
-│   │   ├── context/             # React context for managing state
-│   │   │   └── DocumentContext.js
-│   │   ├── App.js               # Main React component
-│   │   └── index.js             # Entry point for React
-│   ├── .env                     # Environment variables (for WebSocket URLs, API)
-│   └── package.json             # Frontend dependencies (React)
-│
-└── README.md                   # Project documentation
+##FOLDERS:
+![Image](https://github.com/user-attachments/assets/dde18227-7dbc-4b3f-a480-3eda8d6a1c3b)
 
 
 ### Database:
